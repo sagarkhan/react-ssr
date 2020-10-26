@@ -1,0 +1,15 @@
+<!-- This is a HTML form to test the session validation -->
+<html>
+  <head>
+    <title>React SSR Session</title>
+  </head>
+  <body>
+    <!-- Application Base URL -->
+    <form action="http://localhost:3000" method="post">
+      <input type="text" name="token" placeholder="token" required />
+      <!-- Valid AGENTs are Android, IOS, Web -->
+      <input type="text" name="agent" placeholder="agent" required />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

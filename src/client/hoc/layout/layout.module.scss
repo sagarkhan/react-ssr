@@ -1,0 +1,14 @@
+@import "../../assets/styles/fonts";
+@import "../../assets/styles/variables";
+
+.container {
+  padding: 16px;
+  width: 100%;
+  margin: auto;
+  &__abort {
+    text-align: center;
+    font-size: 14px;
+    color: $text-primary-color;
+    @include font_medium;
+  }
+}
