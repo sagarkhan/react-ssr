@@ -32,7 +32,7 @@ const environments = {
   ...getEnv(currentEnv),
   APP_BASE_NAME: '/',
   ENV: currentEnv,
-  VALIDATE: true /* Validate session  */,
+  VALIDATE: false /* Validate session  */,
   VERSION: '1.0.0',
   STORAGE: STORAGE_ENGINE.SESSION,
 };
